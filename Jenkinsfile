@@ -6,7 +6,7 @@ node {
       }     
       stage('Build image') {         
        
-            app = docker.build("arjunachari12/docker-nodejs-demo")    
+            app = docker.build("binoychandramandal/nodejs-docker-pipeline")    
       }     
       stage('Test image') {           
             app.inside {            
